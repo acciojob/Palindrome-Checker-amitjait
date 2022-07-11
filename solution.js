@@ -1,5 +1,4 @@
 // complete the given function
-const str = document.getElementById('input');
 
 function palindrome(str){
     let i =0; 
@@ -12,5 +11,4 @@ function palindrome(str){
     }
     return true;
 }
-console.log(palindrome);
 module.exports = palindrome
